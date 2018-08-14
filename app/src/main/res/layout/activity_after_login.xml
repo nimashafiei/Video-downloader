@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="monji.nsh.com.VideoDownloader.LoginActivity"
+    android:gravity="center"
+    android:background="@color/background"
+    android:padding="50dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="کد دریافتی"
+        android:id="@+id/teAfterLogin"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:background="@drawable/border_edittext"
+        android:id="@+id/edAfterLogin"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ورود"
+        android:maxLength="11"
+        android:id="@+id/btnAfterLogin"
+        android:background="#00a6"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

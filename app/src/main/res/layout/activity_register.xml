@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="monji.nsh.com.VideoDownloader.RegisterActivity"
+    android:background="@color/background"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="right">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ثبت نمایندگی جدید"
+            android:id="@+id/teTitle"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:background="#fff">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="فرم ثبت نام"
+                android:id="@+id/teTitle2"
+                android:singleLine="false"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/background"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="نام"
+                android:id="@+id/teFn"
+                android:layout_margin="5dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edFname"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="نام خانوادگی"
+                android:id="@+id/teLn"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edLname"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="کد ملی"
+                android:id="@+id/teNic"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edNic"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="کد سازمان"
+                android:id="@+id/teOrg"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edOrg"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="موبایل"
+                android:id="@+id/teMobile"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edMobile"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ایمیل"
+                android:id="@+id/teEmail"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edEmail"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="شماره کارت بانکی"
+                android:id="@+id/teAccountNumber"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edAccountNumber"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="مسیر سرویس"
+                android:id="@+id/tePath"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edPath"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="آدرس"
+                android:id="@+id/teAddress"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="vertical"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edAddress"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="شهر"
+                android:id="@+id/teCity"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edCity"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="شماره پلاک خودرو"
+                android:id="@+id/tePelak"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edPelak"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="نام بانک"
+                android:id="@+id/teBank"
+                android:layout_margin="5dp"
+                android:gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edBank"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="right" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ثبت اطلاعات"
+        android:id="@+id/btnRegister"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</LinearLayout>

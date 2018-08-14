@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">رسانه منجی</string>
+    <string name="server_address">http://rasanesomesara.ir</string>
+    <string name="SharePreferences">MonjiPreferences</string>
+    <string name="preVideoAddress">http://rasanesomesara.ir/uploads/videos/</string>
+</resources>
