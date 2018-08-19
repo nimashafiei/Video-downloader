@@ -72,4 +72,5 @@ Here's the entire API:
    ```
   
 ## Related webservice project
-[Webservice project](https://github.com/afshines/test-api/blob/master/readme.md)
+[Video check node](https://github.com/afshines/VideoCheckNode)
+[Video laravel](https://github.com/afshines/video-laravel)
