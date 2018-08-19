@@ -72,5 +72,4 @@ Here's the entire API:
    ```
   
 ## Related webservice project
-[Video check node](https://github.com/afshines/VideoCheckNode)
-[Video laravel](https://github.com/afshines/video-laravel)
+[Video check node](https://github.com/afshines/VideoCheckNode) <br /> [Video laravel](https://github.com/afshines/video-laravel)
